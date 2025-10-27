@@ -1,0 +1,96 @@
+Creating tasks...
+Core 0 Task Started (PRO_CPU)
+Core 0: Sent message 0
+Tasks created successfully. Monitoring dual-core performance...
+
+Core 1 Task Started (APP_CPU)
+Core 1: Received 'Hello from Core 0 #0' (latency: 17241 μs)
+Core 0: Sent message 10
+Core 1: Received 'Hello from Core 0 #10' (latency: 24175 μs)
+Core 0: Sent message 20
+
+=== Performance Monitor (Second 1) ===
+Core 0 iterations: 21 (avg: 135 μs)
+Core 1 iterations: 25 (avg: 9825 μs)
+Queue messages waiting: 1
+Free heap: 292540 bytes
+Core 1: Received 'Hello from Core 0 #20' (latency: 3548 μs)
+Core 0: Sent message 30
+Core 1: Received 'Hello from Core 0 #30' (latency: 14643 μs)
+Core 0: Sent message 40
+
+=== Performance Monitor (Second 2) ===
+Core 0 iterations: 41 (avg: 91 μs)
+Core 1 iterations: 51 (avg: 9771 μs)
+Queue messages waiting: 1
+Free heap: 292540 bytes
+Core 1: Received 'Hello from Core 0 #40' (latency: 24444 μs)
+Core 0: Sent message 50
+Core 1: Received 'Hello from Core 0 #50' (latency: 3209 μs)
+Core 0: Sent message 60
+
+=== Performance Monitor (Second 3) ===
+Core 0 iterations: 61 (avg: 76 μs)
+Core 1 iterations: 76 (avg: 9733 μs)
+Queue messages waiting: 1
+Free heap: 292540 bytes
+Core 1: Received 'Hello from Core 0 #60' (latency: 14219 μs)
+Core 0: Sent message 70
+Core 1: Received 'Hello from Core 0 #70' (latency: 24574 μs)
+Core 0: Sent message 80
+
+=== Performance Monitor (Second 4) ===
+Core 0 iterations: 81 (avg: 67 μs)
+Core 1 iterations: 101 (avg: 9632 μs)
+Queue messages waiting: 1
+Free heap: 292540 bytes
+Core 1: Received 'Hello from Core 0 #80' (latency: 3446 μs)
+Core 0: Sent message 90
+Core 1: Received 'Hello from Core 0 #90' (latency: 14685 μs)
+Core 0 Task Completed in 5002 ms
+
+=== Performance Monitor (Second 5) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 127 (avg: 9647 μs)
+Queue messages waiting: 0
+Free heap: 292540 bytes
+Core 1 Task Completed in 5942 ms
+
+=== Performance Monitor (Second 6) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 150 (avg: 9704 μs)
+Queue messages waiting: 0
+Free heap: 301452 bytes
+
+=== Performance Monitor (Second 7) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 150 (avg: 9704 μs)
+Queue messages waiting: 0
+Free heap: 301452 bytes
+
+=== Performance Monitor (Second 8) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 150 (avg: 9704 μs)
+Queue messages waiting: 0
+Free heap: 301452 bytes
+
+=== Performance Monitor (Second 9) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 150 (avg: 9704 μs)
+Queue messages waiting: 0
+Free heap: 301452 bytes
+
+=== Performance Monitor (Second 10) ===
+Core 0 iterations: 100 (avg: 59 μs)
+Core 1 iterations: 150 (avg: 9704 μs)
+Queue messages waiting: 0
+Free heap: 301452 bytes
+
+=== Final Results ===
+Core 0 total iterations: 100
+Core 1 total iterations: 150
+Core 0 average time per iteration: 59 μs
+Core 1 average time per iteration: 9704 μs
+
+Dual-core analysis complete!
+I (24977) main_task: Returned from app_main()
